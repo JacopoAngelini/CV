@@ -8,47 +8,81 @@
   <meta name="author" content="Jacopo Angelini">
   <meta name="description" content="tutti i modi per venire in contatto con me ">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      background-color: #FAF2DA;
+    }
+
+    hr {
+      background-color: #C36A2D;
+      height: 3px;
+      width: 90%;
+      noshade;
+      border-style: none;
+    }
+
+    textarea {
+      margin: 0px;
+      width: 1259px;
+      height: 148px;
+    }
+
+    ul{
+      list-style-type: '∘ ';
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    ol{
+       list-style-type: '⮚ ';
+       font-weight: normal;
+       font-style: normal;
+    }
+  </style>
+
 </head>
 
 <body>
-  <h2>I Miei Contatti</h2>
+  <h2 style="font-family: Georgia">I Miei Contatti</h2>
   <ul>
     <li>Email:
-      <ul>
+      <ol>
         <li>jacopo.angelini@live.it</li>
-      </ul>
+      </ol>
     </li>
-    <li>numero di cellulare:
-      <ul>
+    <li>Numero di cellulare:
+      <ol>
         <li>+39 3383748163</li>
-      </ul>
+      </ol>
     </li>
     <li>Email ausiliaria:
-      <ul>
+      <ol>
         <li>jacopo.angelini00@gmail.com</li>
-      </ul>
+      </ol>
     </li>
   </ul>
 
-  <hr size="2" width="90%" noshade>
+  <hr>
 
   <form enctype="text/plain" action="mailto: jacopo.angelini@live.it" method="post">
     <table>
-     <tr>
-       <td><label for="">Nome </label></td>
-       <td><input placeholder="Nome e Cognome" type="text" name="Nome e Cognome" value=""></td>
-     </tr>
-     <br>
-     <tr>
-       <td><label for="">Email </label></td>
-       <td><input placeholder="la tua email" type="email" name="Email" value=""></td>
-     </tr>
+      <tr>
+        <td><label for="">Nome </label></td>
+        <td><input placeholder="Nome e Cognome" type="text" name="Nome e Cognome" value=""></td>
+      </tr>
+      <br>
+      <tr>
+        <td><label for="">Email </label></td>
+        <td><input placeholder="Email Address" type="email" name="Email" value=""></td>
+      </tr>
     </table>
     <br>
     <label for="">Messaggio </label><br>
-    <textarea placeholder="scrivi un messaggio!" name="Messaggio" rows="10" cols="25"></textarea><br><br>
+    <textarea placeholder="Scrivi un messaggio!" name="Messaggio" rows="10" cols="160"></textarea><br><br>
     <input type="submit" name="" value="invio">
   </form>
+
 
 </body>
 
